@@ -14,7 +14,7 @@
                                     <div class="hero-text1">
                                         <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
                                     </div>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">sitiame</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
                                     <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
                                         <h2>capital</h2>
                                         <h2>capital</h2>
@@ -35,7 +35,7 @@
                                     <div class="hero-text1">
                                         <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
                                     </div>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">sitiame</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
                                     <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
                                         <h2>capital</h2>
                                         <h2>capital</h2>
