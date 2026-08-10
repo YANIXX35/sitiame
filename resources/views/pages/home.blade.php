@@ -15,10 +15,6 @@
                                         <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
                                     </div>
                                     <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
-                                    <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
-                                        <h2>capital</h2>
-                                        <h2>capital</h2>
-                                    </div>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
                                        <span><a href="{{ route('services') }}">Nos Services</a></span>
                                     </div>
@@ -36,10 +32,6 @@
                                         <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
                                     </div>
                                     <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
-                                    <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
-                                        <h2>capital</h2>
-                                        <h2>capital</h2>
-                                    </div>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
                                         <span><a href="{{ route('services') }}">Nos Services</a></span>
                                     </div>
