@@ -22,6 +22,15 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 
+    <style>
+        .logo { display: flex; align-items: center; height: 100%; }
+        .logo img { max-height: 55px; width: auto; }
+        .header-sticky.sticky .logo img,
+        .header-bottom.sticky .logo img { max-height: 45px; }
+        .footer-logo img { max-height: 55px; width: auto; }
+        .preloader-img img { max-height: 90px; width: auto; }
+    </style>
+
     @stack('styles')
 </head>
 
