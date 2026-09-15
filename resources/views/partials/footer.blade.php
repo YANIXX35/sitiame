@@ -38,8 +38,8 @@
                                             <p class="info1">Abidjan, Côte d'Ivoire</p>
                                         </div>
                                         <ul>
-                                            <li><a href="tel:+000000000">Téléphone : +XXX XX XXX XXX</a></li>
-                                            <li><a href="mailto:contact@sys-technologies.com">contact@sys-technologies.com</a></li>
+                                            <li><a href="tel:+2250716468149">Téléphone : +225 07 16 46 81 49</a></li>
+                                            <li><a href="mailto:infos@sys-technologies.com">infos@sys-technologies.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -50,10 +50,10 @@
                                     <div class="footer-form">
                                         <div id="mc_embed_signup">
                                             <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                                <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                                <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Votre email " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Votre email '">
                                                 <div class="form-icon">
                                                     <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
-                                                        SIGN UP
+                                                        S'ABONNER
                                                     </button>
                                                 </div>
                                                 <div class="mt-10 info"></div>

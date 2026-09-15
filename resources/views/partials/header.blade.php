@@ -8,8 +8,8 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>
-                                        <li>+XXX XX XXX XXX</li>
-                                        <li>contact@sys-technologies.com</li>
+                                        <li>+225 07 16 46 81 49</li>
+                                        <li>infos@sys-technologies.com</li>
                                         <li>Lun - Sam 8:00 - 17:30, Dimanche - Fermé</li>
                                     </ul>
                                 </div>
