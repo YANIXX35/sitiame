@@ -14,7 +14,7 @@
                                     <div class="hero-text1">
                                         <span data-animation="fadeInUp" data-delay=".3s">Construction – Énergie – Technologies</span>
                                     </div>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Group</h1>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
                                        <span><a href="{{ route('services') }}">Nos Services</a></span>
                                     </div>
@@ -31,7 +31,7 @@
                                     <div class="hero-text1">
                                         <span data-animation="fadeInUp" data-delay=".3s">Construction – Énergie – Technologies</span>
                                     </div>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Group</h1>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
                                         <span><a href="{{ route('services') }}">Nos Services</a></span>
                                     </div>
