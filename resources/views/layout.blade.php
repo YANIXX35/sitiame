@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>@yield('title', 'Sitiame Capital BTP') | Sitiame Capital BTP</title>
-    <meta name="description" content="Sitiame Capital BTP - Entreprise de construction et BTP">
+    <title>@yield('title', 'Sys Technologies Group') | Sys Technologies Group</title>
+    <meta name="description" content="Sys Technologies Group - Ingénierie, solutions technologiques et services techniques multidisciplinaires : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie, BTP & infrastructures techniques. Basée à Abidjan.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
 

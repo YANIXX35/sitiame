@@ -12,7 +12,7 @@
                                     </div>
                                     <div class="footer-tittle">
                                         <div class="footer-pera">
-                                            <p class="info1">Sitiame Capital BTP accompagne vos projets de construction et de bâtiment avec expertise et rigueur.</p>
+                                            <p class="info1">SYS-TECHNOLOGIES GROUP est une entreprise d'ingénierie et de services techniques multidisciplinaires basée à Abidjan : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie et BTP.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -35,11 +35,11 @@
                                     <div class="footer-tittle">
                                         <h4>Contact</h4>
                                         <div class="footer-pera">
-                                            <p class="info1">Adresse de Sitiame Capital BTP</p>
+                                            <p class="info1">Abidjan, Côte d'Ivoire</p>
                                         </div>
                                         <ul>
                                             <li><a href="tel:+000000000">Téléphone : +XXX XX XXX XXX</a></li>
-                                            <li><a href="mailto:contact@sitiame-capital-btp.com">contact@sitiame-capital-btp.com</a></li>
+                                            <li><a href="mailto:contact@sys-technologies.com">contact@sys-technologies.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-12 ">
                                 <div class="footer-copy-right">
-                                    <p>Copyright &copy; {{ date('Y') }} Sitiame Capital BTP. Tous droits réservés.</p>
+                                    <p>Copyright &copy; {{ date('Y') }} Sys Technologies Group. Tous droits réservés.</p>
                                 </div>
                             </div>
                         </div>

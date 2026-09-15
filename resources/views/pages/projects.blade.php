@@ -60,7 +60,7 @@
                         <!-- Nav Card -->
                         <div class="tab-content active" id="nav-tabContent">
                             <!-- card ONE -->
-                            <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">           
+                            <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                 <div class="project-caption">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6">
@@ -70,8 +70,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Trois Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,8 +82,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+2</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -94,8 +94,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -106,8 +106,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">30 Villas Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Yopougon-Songon</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -118,8 +118,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Anyama-Ebimpé</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,8 +130,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+5</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>

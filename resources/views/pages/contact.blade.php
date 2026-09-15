@@ -76,20 +76,20 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Adresse de Sitiame Capital BTP</h3>
+                                <h3>Abidjan, Côte d'Ivoire</h3>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
                                 <h3>+XXX XX XXX XXX</h3>
-                                <p>Lun au Ven 9h à 18h</p>
+                                <p>Lun - Sam 8h à 17h30</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>contact@sitiame-capital-btp.com</h3>
+                                <h3>contact@sys-technologies.com</h3>
                                 <p>Envoyez-nous votre demande à tout moment !</p>
                             </div>
                         </div>

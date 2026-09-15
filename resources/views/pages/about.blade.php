@@ -36,9 +36,9 @@
                         <span class="back-text">About us</span>
                     </div>
                     <div class="support-caption">
-                        <p class="pera-top">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
-                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
-                        <a href="{{ route('about') }}" class="btn red-btn2">read more</a>
+                        <p class="pera-top">SYS-TECHNOLOGIES GROUP est une entreprise spécialisée dans l'ingénierie, les solutions technologiques et les services techniques multidisciplinaires, basée à Abidjan.</p>
+                        <p>Elle intervient dans plusieurs domaines stratégiques : Énergie (courants forts et faibles), Télécommunications, Informatique & réseaux, Systèmes de sécurité électronique et incendie, BTP & infrastructures techniques. L'entreprise s'appuie sur une équipe expérimentée et qualifiée, capable de concevoir, réaliser et maintenir des installations complexes avec un haut niveau d'exigence professionnelle.</p>
+                        <a href="{{ route('services') }}" class="btn red-btn2">nos services</a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -47,8 +47,8 @@
                         <img src="{{ asset('assets/img/gallery/safe_in.png') }}" alt="">
                     </div>
                     <div class="support-img-cap text-center">
-                        <span>1994</span>
-                        <p>Since</p>
+                        <span>5</span>
+                        <p>Domaines</p>
                     </div>
                 </div>
             </div>
@@ -127,9 +127,9 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle5 mb-50">
                             <div class="front-text">
-                                <h2 class="">Our team</h2>
+                                <h2 class="">Notre organisation</h2>
                             </div>
-                            <span class="back-text">exparts</span>
+                            <span class="back-text">Direction</span>
                         </div>
                     </div>
                 </div>
@@ -141,8 +141,8 @@
                                 <img src="{{ asset('assets/img/team/team1.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Directeur Général</h3>
                             </div>
                         </div>
                     </div>
@@ -152,8 +152,8 @@
                                 <img src="{{ asset('assets/img/team/team2.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Direction administrative et financière</h3>
                             </div>
                         </div>
                     </div>
@@ -163,8 +163,8 @@
                                 <img src="{{ asset('assets/img/team/team3.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Direction technique</h3>
                             </div>
                         </div>
                     </div>

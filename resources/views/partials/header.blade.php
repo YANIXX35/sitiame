@@ -9,7 +9,7 @@
                                 <div class="header-info-left">
                                     <ul>
                                         <li>+XXX XX XXX XXX</li>
-                                        <li>contact@sitiame-capital-btp.com</li>
+                                        <li>contact@sys-technologies.com</li>
                                         <li>Lun - Sam 8:00 - 17:30, Dimanche - Fermé</li>
                                     </ul>
                                 </div>
