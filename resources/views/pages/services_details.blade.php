@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-lg-10 col-xl-8">
                             <div class="hero-cap hero-cap2 pt-120">
-                                <h2>Engineering techniques & implementation</h2>
+                                <h2>Ingénierie technique & mise en œuvre</h2>
                             </div>
                         </div>
                     </div>
@@ -28,14 +28,14 @@
                                 <img src="{{ asset('assets/img/gallery/services_details.png') }}" alt="">
                             </div>
                             <div class="details-caption">
-                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.Mollit anim laborum.Dvcuis aute iruxvfg.</p>
+                                <p>SYS-TECHNOLOGIES GROUP intervient dans la conception et les études techniques, l'installation et la mise en service, la maintenance préventive et corrective, l'audit et l'optimisation des systèmes, ainsi que la formation des utilisateurs.</p>
 
-                                <p class="mb-50">Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.Mollit anim laborum.Dvcuis aute iruxvfg.</p>
+                                <p class="mb-50">Chaque intervention s'appuie sur une équipe de techniciens et ingénieurs qualifiés, capables de concevoir, réaliser et maintenir des installations complexes avec un haut niveau d'exigence professionnelle.</p>
 
-                                <h3>How can we help?</h3>
-                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.Mollit anim laborum.Dvcuis aute iruxvfg.</p>
-                                
-                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.Mollit anim laborum.Dvcuis aute iruxvfg.</p>
+                                <h3>Comment pouvons-nous vous aider ?</h3>
+                                <p>Notre méthodologie suit un processus rigoureux : analyse des besoins, étude technique et dimensionnement, proposition de solution, exécution des travaux, tests et mise en service, puis maintenance et suivi.</p>
+
+                                <p>Qualité et conformité aux normes, respect des délais, sécurité des installations et innovation technologique sont au cœur de nos engagements sur chaque projet.</p>
                             </div>
                         </div>
                     </div>

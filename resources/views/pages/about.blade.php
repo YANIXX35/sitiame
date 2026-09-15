@@ -10,11 +10,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap pt-100">
-                                <h2>About us</h2>
+                                <h2>À propos</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Product</a></li> 
+                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="#">À propos</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -31,9 +31,9 @@
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-55">
                         <div class="front-text">
-                            <h2 class="">Who we are</h2>
+                            <h2 class="">Qui sommes-nous</h2>
                         </div>
-                        <span class="back-text">About us</span>
+                        <span class="back-text">À propos</span>
                     </div>
                     <div class="support-caption">
                         <p class="pera-top">SYS-TECHNOLOGIES GROUP est une entreprise spécialisée dans l'ingénierie, les solutions technologiques et les services techniques multidisciplinaires, basée à Abidjan.</p>
@@ -62,9 +62,9 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle6 mb-50">
                             <div class="front-text">
-                                <h2 class="">Testimonial</h2>
+                                <h2 class="">Témoignages</h2>
                             </div>
-                            <span class="back-text">Feedback</span>
+                            <span class="back-text">Avis clients</span>
                         </div>
                     </div>
                 </div>
@@ -81,13 +81,13 @@
                                         <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
                                         d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
                                         </svg>
-                                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim. Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjn.</p>
+                                        <p>Une équipe réactive et rigoureuse qui a su respecter les délais et les normes techniques sur l'ensemble du chantier. Un vrai partenaire de confiance pour nos projets de construction.</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center">
                                        <div class="founder-text">
-                                            <span>Jessya Inn</span>
-                                            <p>Co Founder</p>
+                                            <span>Client SYS-Technologies Group</span>
+                                            <p>Projet immobilier, Bingerville</p>
                                        </div>
                                     </div>
                                 </div>
@@ -102,13 +102,13 @@
                                         <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
                                         d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
                                         </svg>
-                                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim. Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjn.</p>
+                                        <p>Du terrassement aux finitions, l'équipe SYS-Technologies Group a fait preuve d'un grand professionnalisme. Un savoir-faire technique solide et une communication claire tout au long du projet.</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center">
                                        <div class="founder-text">
-                                            <span>Jessya Inn</span>
-                                            <p>Co Founder</p>
+                                            <span>Client SYS-Technologies Group</span>
+                                            <p>Projet immobilier, Yopougon-Songon</p>
                                        </div>
                                     </div>
                                 </div>

@@ -10,11 +10,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap pt-100">
-                                <h2>Our projects</h2>
+                                <h2>Nos projets</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Project</a></li> 
+                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Projets</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -33,9 +33,9 @@
                             <!-- Section Tittle -->
                             <div class="section-tittle section-tittle3">
                                 <div class="front-text">
-                                    <h2 class="">Our Projects</h2>
+                                    <h2 class="">Nos Projets</h2>
                                 </div>
-                                <span class="back-text">Gellary</span>
+                                <span class="back-text">Galerie</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -43,11 +43,11 @@
                                 <!--Nav Button  -->                                            
                                 <nav> 
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Show  all </a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Intorior</a>
-                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Recent</a>
-                                        <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Big building</a>
-                                        <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Park</a>
+                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Tout afficher </a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Résidentiel</a>
+                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Récents</a>
+                                        <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Grands bâtiments</a>
+                                        <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Aménagement</a>
                                     </div>
                                 </nav>
                                 <!--End Nav Button  -->
@@ -149,8 +149,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -161,8 +161,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,8 +173,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -185,8 +185,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,8 +197,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -209,8 +209,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,8 +228,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,8 +240,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -252,8 +252,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -264,8 +264,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -276,8 +276,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,8 +288,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,8 +307,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -319,8 +319,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -331,8 +331,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -343,8 +343,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -355,8 +355,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -367,8 +367,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -386,8 +386,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -398,8 +398,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,8 +410,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -422,8 +422,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -434,8 +434,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -446,8 +446,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>

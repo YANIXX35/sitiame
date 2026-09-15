@@ -54,7 +54,6 @@
                                             </li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="{{ route('elements') }}">Éléments</a></li>
                                                     <li><a href="{{ route('projects.show', 1) }}">Détail projet</a></li>
                                                     <li><a href="{{ route('services.show', 1) }}">Détail service</a></li>
                                                 </ul>

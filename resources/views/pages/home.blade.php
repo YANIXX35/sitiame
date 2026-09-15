@@ -12,7 +12,7 @@
                             <div class="col-lg-11">
                                 <div class="hero__caption">
                                     <div class="hero-text1">
-                                        <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
+                                        <span data-animation="fadeInUp" data-delay=".3s">Construction – Énergie – Technologies</span>
                                     </div>
                                     <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
@@ -29,7 +29,7 @@
                             <div class="col-lg-11">
                                 <div class="hero__caption">
                                     <div class="hero-text1">
-                                        <span data-animation="fadeInUp" data-delay=".3s">construction et bâtiment</span>
+                                        <span data-animation="fadeInUp" data-delay=".3s">Construction – Énergie – Technologies</span>
                                     </div>
                                     <h1 data-animation="fadeInUp" data-delay=".5s">Sys Technologies Groups</h1>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
@@ -51,7 +51,7 @@
                     <div class="col-lg-12">
                         <div class="section-tittle mb-55">
                             <div class="front-text">
-                                <h2 class="">Our Services</h2>
+                                <h2 class="">Nos Services</h2>
                             </div>
                             <span class="back-text">Services</span>
                         </div>
@@ -111,14 +111,14 @@
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-55">
                         <div class="front-text">
-                            <h2 class="">Who we are</h2>
+                            <h2 class="">Qui sommes-nous</h2>
                         </div>
-                        <span class="back-text">About us</span>
+                        <span class="back-text">À propos</span>
                     </div>
                     <div class="support-caption">
-                        <p class="pera-top">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
-                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
-                        <a href="{{ route('about') }}" class="btn red-btn2">read more</a>
+                        <p class="pera-top">SYS-TECHNOLOGIES GROUP est une entreprise spécialisée dans l'ingénierie, les solutions technologiques et les services techniques multidisciplinaires, basée à Abidjan.</p>
+                        <p>Elle intervient dans plusieurs domaines stratégiques : Énergie (courants forts et faibles), Télécommunications, Informatique & réseaux, Systèmes de sécurité électronique et incendie, BTP & infrastructures techniques.</p>
+                        <a href="{{ route('about') }}" class="btn red-btn2">en savoir plus</a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -127,8 +127,8 @@
                         <img src="{{ asset('assets/img/gallery/safe_in.png') }}" alt="">
                     </div>
                     <div class="support-img-cap text-center">
-                        <span>1994</span>
-                        <p>Since</p>
+                        <span>5</span>
+                        <p>Domaines</p>
                     </div>
                 </div>
             </div>
@@ -143,9 +143,9 @@
                             <!-- Section Tittle -->
                             <div class="section-tittle section-tittle3">
                                 <div class="front-text">
-                                    <h2 class="">Our Projects</h2>
+                                    <h2 class="">Nos Projets</h2>
                                 </div>
-                                <span class="back-text">Gellary</span>
+                                <span class="back-text">Galerie</span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -153,11 +153,11 @@
                                 <!--Nav Button  -->                                            
                                 <nav> 
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Show  all </a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Intorior</a>
-                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Recent</a>
-                                        <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Big building</a>
-                                        <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Park</a>
+                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false"> Tout afficher </a>
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Résidentiel</a>
+                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Récents</a>
+                                        <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Grands bâtiments</a>
+                                        <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">Aménagement</a>
                                     </div>
                                 </nav>
                                 <!--End Nav Button  -->
@@ -259,8 +259,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,8 +271,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,8 +283,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -295,8 +295,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,8 +307,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -319,8 +319,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -338,8 +338,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -350,8 +350,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,8 +362,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -374,8 +374,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -386,8 +386,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -398,8 +398,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -417,8 +417,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -429,8 +429,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -441,8 +441,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -453,8 +453,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -465,8 +465,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -477,8 +477,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -496,8 +496,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -508,8 +508,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -520,8 +520,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -532,8 +532,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -544,8 +544,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -556,8 +556,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Floride Chemicals</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Factory</a></h4>
+                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -581,12 +581,12 @@
                                 <!-- Section Tittle -->
                                 <div class="section-tittle section-tittle4">
                                     <div class="front-text">
-                                        <h2 class="">Lats talk with us</h2>
+                                        <h2 class="">Parlons de votre projet</h2>
                                     </div>
-                                    <span class="back-text">Lat`s chat</span>
+                                    <span class="back-text">Contactez-nous</span>
                                 </div>
-                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
-                                <a href="#" class="white-btn">read more</a>
+                                <p>Une question, un projet à étudier ou un devis à demander ? Notre équipe technique vous accompagne à chaque étape, de l'analyse des besoins jusqu'à la mise en service.</p>
+                                <a href="{{ route('contact') }}" class="white-btn">nous contacter</a>
                             </div>
                         </div>
                     </div>
@@ -606,8 +606,8 @@
                                         <span class="counter">34</span>
                                     </div>
                                     <div class="count-text">
-                                        <p>Machinery</p>
-                                        <h5>Tools</h5>
+                                        <p>Équipements</p>
+                                        <h5>Machines</h5>
                                     </div>
                                 </div>
                             </div>
@@ -619,8 +619,8 @@
                                         <span class="counter">76</span>
                                     </div>
                                     <div class="count-text">
-                                        <p>Machinery</p>
-                                        <h5>Tools</h5>
+                                        <p>Interventions</p>
+                                        <h5>Techniques</h5>
                                     </div>
                                 </div>
                             </div>
@@ -629,11 +629,11 @@
                             <div class="count-clients">
                                 <div class="single-counter">
                                     <div class="count-number">
-                                        <span class="counter">08</span>
+                                        <span class="counter">05</span>
                                     </div>
                                     <div class="count-text">
-                                        <p>Machinery</p>
-                                        <h5>Tools</h5>
+                                        <p>Domaines</p>
+                                        <h5>D'expertise</h5>
                                     </div>
                                 </div>
                             </div>
@@ -651,9 +651,9 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle5 mb-50">
                             <div class="front-text">
-                                <h2 class="">Our team</h2>
+                                <h2 class="">Notre organisation</h2>
                             </div>
-                            <span class="back-text">exparts</span>
+                            <span class="back-text">Direction</span>
                         </div>
                     </div>
                 </div>
@@ -665,8 +665,8 @@
                                 <img src="{{ asset('assets/img/team/team1.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Directeur Général</h3>
                             </div>
                         </div>
                     </div>
@@ -676,8 +676,8 @@
                                 <img src="{{ asset('assets/img/team/team2.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Direction administrative et financière</h3>
                             </div>
                         </div>
                     </div>
@@ -687,8 +687,8 @@
                                 <img src="{{ asset('assets/img/team/team3.png') }}" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>UX Designer</span>
-                                <h3>Ethan Welch</h3>
+                                <span>Direction</span>
+                                <h3>Direction technique</h3>
                             </div>
                         </div>
                     </div>
@@ -704,9 +704,9 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle6 mb-50">
                             <div class="front-text">
-                                <h2 class="">Testimonial</h2>
+                                <h2 class="">Témoignages</h2>
                             </div>
-                            <span class="back-text">Feedback</span>
+                            <span class="back-text">Avis clients</span>
                         </div>
                     </div>
                 </div>
@@ -723,13 +723,13 @@
                                         <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
                                         d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
                                         </svg>
-                                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim. Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjn.</p>
+                                        <p>Une équipe réactive et rigoureuse qui a su respecter les délais et les normes techniques sur l'ensemble du chantier. Un vrai partenaire de confiance pour nos projets de construction.</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center">
                                        <div class="founder-text">
-                                            <span>Jessya Inn</span>
-                                            <p>Co Founder</p>
+                                            <span>Client SYS-Technologies Group</span>
+                                            <p>Projet immobilier, Bingerville</p>
                                        </div>
                                     </div>
                                 </div>
@@ -744,13 +744,13 @@
                                         <path fill-rule="evenodd"  stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0" fill="rgb(0, 0, 0)"
                                         d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"/>
                                         </svg>
-                                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim. Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjn.</p>
+                                        <p>Du terrassement aux finitions, l'équipe SYS-Technologies Group a fait preuve d'un grand professionnalisme. Un savoir-faire technique solide et une communication claire tout au long du projet.</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder d-flex align-items-center">
                                        <div class="founder-text">
-                                            <span>Jessya Inn</span>
-                                            <p>Co Founder</p>
+                                            <span>Client SYS-Technologies Group</span>
+                                            <p>Projet immobilier, Yopougon-Songon</p>
                                        </div>
                                     </div>
                                 </div>
@@ -769,9 +769,9 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle section-tittle7 mb-50">
                             <div class="front-text">
-                                <h2 class="">latest news</h2>
+                                <h2 class="">Actualités</h2>
                             </div>
-                            <span class="back-text">Our Blog</span>
+                            <span class="back-text">Notre Blog</span>
                         </div>
                     </div>
                 </div>
@@ -783,16 +783,16 @@
                                 <img src="{{ asset('assets/img/david/david_1.png') }}" alt="">
                                 <div class="news-date text-center">
                                     <span>24</span>
-                                    <p>Now</p>
+                                    <p>Nov</p>
                                 </div>
                             </div>
                             <div class="news-caption">
                                 <ul class="david-info">
-                                    <li> | &nbsp; &nbsp;  Porperties</li>
+                                    <li> | &nbsp; &nbsp;  Projets</li>
                                 </ul>
-                                <h2><a href="{{ route('blog.show', 1) }}">Footprints in Time is perfect
-                                    House in Kurashiki</a></h2>
-                                <a href="{{ route('blog.show', 1) }}" class="d-btn">Read more »</a>
+                                <h2><a href="{{ route('blog.show', 1) }}">Bâtiment R+5 à Angré Djorobité :
+                                    une réalisation clé</a></h2>
+                                <a href="{{ route('blog.show', 1) }}" class="d-btn">Lire la suite »</a>
                             </div>
                         </div>
                     </div>
@@ -803,16 +803,16 @@
                                 <img src="{{ asset('assets/img/david/david_2.png') }}" alt="">
                                 <div class="news-date text-center">
                                     <span>24</span>
-                                    <p>Now</p>
+                                    <p>Nov</p>
                                 </div>
                             </div>
                             <div class="news-caption">
                                 <ul class="david-info">
-                                    <li> | &nbsp; &nbsp;  Porperties</li>
+                                    <li> | &nbsp; &nbsp;  Projets</li>
                                 </ul>
-                                <h2><a href="{{ route('blog.show', 1) }}">Footprints in Time is perfect
-                                    House in Kurashiki</a></h2>
-                                <a href="{{ route('blog.show', 1) }}" class="d-btn">Read more » </a>
+                                <h2><a href="{{ route('blog.show', 1) }}">30 Villas Duplex à Yopougon-Songon :
+                                    un projet d'envergure</a></h2>
+                                <a href="{{ route('blog.show', 1) }}" class="d-btn">Lire la suite » </a>
                             </div>
                         </div>
                     </div>

@@ -43,9 +43,4 @@ class PageController extends Controller
     {
         return view('pages.single_blog', ['id' => $id]);
     }
-
-    public function elements()
-    {
-        return view('pages.elements');
-    }
 }

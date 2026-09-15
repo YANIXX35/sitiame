@@ -10,11 +10,11 @@
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="hero-cap pt-100">
-							<h2>Single Blog</h2>
+							<h2>Article</h2>
 							<nav aria-label="breadcrumb ">
 								<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-								<li class="breadcrumb-item"><a href="#">Single Blog</a></li> 
+								<li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+								<li class="breadcrumb-item"><a href="#">Article</a></li> 
 								</ol>
 							</nav>
 						</div>
@@ -34,49 +34,35 @@
                      <img class="img-fluid" src="{{ asset('assets/img/blog/single_blog_1.png') }}" alt="">
                   </div>
                   <div class="blog_details">
-                     <h2>Second divided from form fish beast made every of seas
-                        all gathered us saying he our
+                     <h2>Bâtiment R+5 à Angré Djorobité : une réalisation clé
                      </h2>
                      <ul class="blog-info-link mt-3 mb-4">
-                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                        <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                      </ul>
                      <p class="excert">
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower
+                        Ce chantier illustre parfaitement le savoir-faire de SYS-Technologies Group en matière de génie civil et de construction de bâtiments à plusieurs niveaux, mené du terrassement jusqu'aux finitions.
                      </p>
                      <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower to actually sit through a
-                        self-imposed MCSE training. who has the willpower to actually
+                        Notre équipe technique a procédé à une étude et un dimensionnement rigoureux avant l'exécution des travaux, afin d'anticiper les contraintes du terrain et garantir la solidité de l'ouvrage sur le long terme.
                      </p>
                      <div class="quote-wrapper">
                         <div class="quotes">
-                           MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                           should have to spend money on boot camp when you can get the MCSE study materials yourself at
-                           a fraction of the camp price. However, who has the willpower to actually sit through a
-                           self-imposed MCSE training.
+                           Qualité et conformité aux normes, respect des délais, sécurité des installations : ce sont les engagements qui guident chacune de nos interventions sur le terrain.
                         </div>
                      </div>
                      <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower
+                        Les travaux ont couvert l'ensemble des lots : terrassement, fondations, gros œuvre, plomberie sanitaire et assainissement, faux plafond, carrelage et peinture.
                      </p>
                      <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower to actually sit through a
-                        self-imposed MCSE training. who has the willpower to actually
+                        Le résultat est un bâtiment livré dans les délais convenus, conforme aux exigences techniques et de sécurité, et pleinement adapté aux besoins du client.
                      </p>
                   </div>
                </div>
                <div class="navigation-top">
                   <div class="d-sm-flex justify-content-between text-center">
-                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Lily and 4
-                        people like this</p>
+                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> 4
+                        personnes aiment cet article</p>
                      <div class="col-sm-4 text-center my-2 my-sm-0">
                         <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
                      </div>
@@ -102,18 +88,18 @@
                               </a>
                            </div>
                            <div class="detials">
-                              <p>Prev Post</p>
+                              <p>Article précédent</p>
                               <a href="#">
-                                 <h4>Space The Final Frontier</h4>
+                                 <h4>30 Villas Duplex à Yopougon-Songon</h4>
                               </a>
                            </div>
                         </div>
                         <div
                            class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                            <div class="detials">
-                              <p>Next Post</p>
+                              <p>Article suivant</p>
                               <a href="#">
-                                 <h4>Telescopes 101</h4>
+                                 <h4>Immeuble R+3 à Bingerville</h4>
                               </a>
                            </div>
                            <div class="arrow">
@@ -135,107 +121,25 @@
                      <img src="{{ asset('assets/img/blog/author.png') }}" alt="">
                      <div class="media-body">
                         <a href="#">
-                           <h4>Harvard milan</h4>
+                           <h4>Équipe SYS-Technologies Group</h4>
                         </a>
-                        <p>Second divided from form fish beast made. Every of seas all gathered use saying you're, he
-                           our dominion twon Second divided from</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="comments-area">
-                  <h4>05 Comments</h4>
-                  <div class="comment-list">
-                     <div class="single-comment justify-content-between d-flex">
-                        <div class="user justify-content-between d-flex">
-                           <div class="thumb">
-                              <img src="{{ asset('assets/img/comment/comment_1.png') }}" alt="">
-                           </div>
-                           <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
-                              <div class="d-flex justify-content-between">
-                                 <div class="d-flex align-items-center">
-                                    <h5>
-                                       <a href="#">Emilly Blunt</a>
-                                    </h5>
-                                    <p class="date">December 4, 2017 at 3:12 pm </p>
-                                 </div>
-                                 <div class="reply-btn">
-                                    <a href="#" class="btn-reply text-uppercase">reply</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="comment-list">
-                     <div class="single-comment justify-content-between d-flex">
-                        <div class="user justify-content-between d-flex">
-                           <div class="thumb">
-                              <img src="{{ asset('assets/img/comment/comment_2.png') }}" alt="">
-                           </div>
-                           <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
-                              <div class="d-flex justify-content-between">
-                                 <div class="d-flex align-items-center">
-                                    <h5>
-                                       <a href="#">Emilly Blunt</a>
-                                    </h5>
-                                    <p class="date">December 4, 2017 at 3:12 pm </p>
-                                 </div>
-                                 <div class="reply-btn">
-                                    <a href="#" class="btn-reply text-uppercase">reply</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="comment-list">
-                     <div class="single-comment justify-content-between d-flex">
-                        <div class="user justify-content-between d-flex">
-                           <div class="thumb">
-                              <img src="{{ asset('assets/img/comment/comment_3.png') }}" alt="">
-                           </div>
-                           <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
-                              <div class="d-flex justify-content-between">
-                                 <div class="d-flex align-items-center">
-                                    <h5>
-                                       <a href="#">Emilly Blunt</a>
-                                    </h5>
-                                    <p class="date">December 4, 2017 at 3:12 pm </p>
-                                 </div>
-                                 <div class="reply-btn">
-                                    <a href="#" class="btn-reply text-uppercase">reply</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                        <p>Ingénierie, énergie, télécommunications et BTP : notre équipe partage régulièrement l'actualité de ses chantiers et de son expertise technique.</p>
                      </div>
                   </div>
                </div>
                <div class="comment-form">
-                  <h4>Leave a Reply</h4>
+                  <h4>Laisser un commentaire</h4>
                   <form class="form-contact comment_form" action="#" id="commentForm">
                      <div class="row">
                         <div class="col-12">
                            <div class="form-group">
                               <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
-                                 placeholder="Write Comment"></textarea>
+                                 placeholder="Votre commentaire"></textarea>
                            </div>
                         </div>
                         <div class="col-sm-6">
                            <div class="form-group">
-                              <input class="form-control" name="name" id="name" type="text" placeholder="Name">
+                              <input class="form-control" name="name" id="name" type="text" placeholder="Nom">
                            </div>
                         </div>
                         <div class="col-sm-6">
@@ -245,12 +149,12 @@
                         </div>
                         <div class="col-12">
                            <div class="form-group">
-                              <input class="form-control" name="website" id="website" type="text" placeholder="Website">
+                              <input class="form-control" name="website" id="website" type="text" placeholder="Site web">
                            </div>
                         </div>
                      </div>
                      <div class="form-group">
-                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Envoyer</button>
                      </div>
                   </form>
                </div>
@@ -261,128 +165,128 @@
                      <form action="#">
                         <div class="form-group">
                            <div class="input-group mb-3">
-                              <input type="text" class="form-control" placeholder='Search Keyword'
-                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                              <input type="text" class="form-control" placeholder='Rechercher un mot-clé'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Rechercher un mot-clé'">
                               <div class="input-group-append">
                                  <button class="btns" type="button"><i class="ti-search"></i></button>
                               </div>
                            </div>
                         </div>
                         <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                           type="submit">Search</button>
+                           type="submit">Rechercher</button>
                      </form>
                   </aside>
                   <aside class="single_sidebar_widget post_category_widget">
-                     <h4 class="widget_title">Category</h4>
+                     <h4 class="widget_title">Catégories</h4>
                      <ul class="list cat-list">
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Resaurant food</p>
-                              <p>(37)</p>
+                              <p>BTP & Construction</p>
+                              <p>(12)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Travel news</p>
-                              <p>(10)</p>
+                              <p>Énergie & Électricité</p>
+                              <p>(8)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Modern technology</p>
-                              <p>(03)</p>
+                              <p>Télécommunications</p>
+                              <p>(5)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Product</p>
-                              <p>(11)</p>
+                              <p>Réseaux informatiques</p>
+                              <p>(4)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Inspiration</p>
-                              <p>(21)</p>
+                              <p>Systèmes de sécurité</p>
+                              <p>(3)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Health Care</p>
-                              <p>(21)</p>
+                              <p>Actualités entreprise</p>
+                              <p>(6)</p>
                            </a>
                         </li>
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget popular_post_widget">
-                     <h3 class="widget_title">Recent Post</h3>
+                     <h3 class="widget_title">Articles récents</h3>
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_1.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
-                              <h3>From life was you fish...</h3>
+                              <h3>Bâtiment R+5 à Angré Djorobité</h3>
                            </a>
-                           <p>January 12, 2019</p>
+                           <p>Il y a 5 jours</p>
                         </div>
                      </div>
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
-                              <h3>The Amazing Hubble</h3>
+                              <h3>30 Villas Duplex à Yopougon-Songon</h3>
                            </a>
-                           <p>02 Hours ago</p>
+                           <p>Il y a 2 heures</p>
                         </div>
                      </div>
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
-                              <h3>Astronomy Or Astrology</h3>
+                              <h3>Immeuble R+3 à Bingerville</h3>
                            </a>
-                           <p>03 Hours ago</p>
+                           <p>Il y a 3 heures</p>
                         </div>
                      </div>
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
-                              <h3>Asteroids telescope</h3>
+                              <h3>Piscine à Jacqueville</h3>
                            </a>
-                           <p>01 Hours ago</p>
+                           <p>Il y a 1 heure</p>
                         </div>
                      </div>
                   </aside>
                   <aside class="single_sidebar_widget tag_cloud_widget">
-                     <h4 class="widget_title">Tag Clouds</h4>
+                     <h4 class="widget_title">Nuage de tags</h4>
                      <ul class="list">
                         <li>
-                           <a href="#">project</a>
+                           <a href="#">projet</a>
                         </li>
                         <li>
-                           <a href="#">love</a>
+                           <a href="#">énergie</a>
                         </li>
                         <li>
-                           <a href="#">technology</a>
+                           <a href="#">technologie</a>
                         </li>
                         <li>
-                           <a href="#">travel</a>
+                           <a href="#">télécoms</a>
                         </li>
                         <li>
-                           <a href="#">restaurant</a>
+                           <a href="#">sécurité</a>
                         </li>
                         <li>
-                           <a href="#">life style</a>
+                           <a href="#">BTP</a>
                         </li>
                         <li>
-                           <a href="#">design</a>
+                           <a href="#">construction</a>
                         </li>
                         <li>
-                           <a href="#">illustration</a>
+                           <a href="#">ingénierie</a>
                         </li>
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget instagram_feeds">
-                     <h4 class="widget_title">Instagram Feeds</h4>
+                     <h4 class="widget_title">Galerie photos</h4>
                      <ul class="instagram_row flex-wrap">
                         <li>
                            <a href="#">
@@ -421,10 +325,10 @@
                      <form action="#">
                         <div class="form-group">
                            <input type="email" class="form-control" onfocus="this.placeholder = ''"
-                              onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                              onblur="this.placeholder = 'Votre email'" placeholder='Votre email' required>
                         </div>
                         <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                           type="submit">Subscribe</button>
+                           type="submit">S'abonner</button>
                      </form>
                   </aside>
                </div>

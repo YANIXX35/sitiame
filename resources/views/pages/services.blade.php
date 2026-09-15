@@ -13,8 +13,8 @@
                                 <h2>Services</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Services</a></li> 
+                                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Services</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -32,7 +32,7 @@
                     <div class="col-lg-12">
                         <div class="section-tittle mb-55">
                             <div class="front-text">
-                                <h2 class="">Our Services</h2>
+                                <h2 class="">Nos Services</h2>
                             </div>
                             <span class="back-text">Services</span>
                         </div>

@@ -13,8 +13,8 @@
                             <h2> Blog</h2>
                             <nav aria-label="breadcrumb ">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#"> Blog</a></li> 
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
+                                <li class="breadcrumb-item"><a href="#"> Blog</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -35,19 +35,18 @@
                                 <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_1.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
-                                    <p>Jan</p>
+                                    <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>Bâtiment R+5 à Angré Djorobité : une réalisation clé</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Retour sur un chantier d'envergure mené par nos équipes, du terrassement jusqu'aux finitions, dans le respect des délais et des normes de construction.</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -57,19 +56,18 @@
                                 <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_2.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
-                                    <p>Jan</p>
+                                    <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>30 Villas Duplex à Yopougon-Songon : un projet d'envergure</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Un programme immobilier ambitieux illustrant notre capacité à gérer des chantiers de grande envergure, de l'étude technique à la livraison.</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -79,19 +77,18 @@
                                 <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_3.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
-                                    <p>Jan</p>
+                                    <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>Immeuble R+3 à Bingerville : travaux de fondation achevés</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Les fondations de cet immeuble ont été réalisées avec rigueur par nos équipes techniques, posant les bases d'une structure durable.</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -101,19 +98,18 @@
                                 <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_4.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
-                                    <p>Jan</p>
+                                    <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>Piscine à Jacqueville : un chantier vers l'achèvement</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Un projet technique combinant génie civil et étanchéité, mené en parallèle de nos autres chantiers résidentiels.</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -123,19 +119,18 @@
                                 <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_5.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
-                                    <p>Jan</p>
+                                    <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                    <h2>SYS-Technologies Group renforce son expertise en énergies renouvelables</h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p>Photovoltaïque, pompage solaire, optimisation énergétique : notre équipe technique développe son savoir-faire sur les solutions d'énergie renouvelable.</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> Énergie, Technologies</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
@@ -168,133 +163,133 @@
                             <form action="#">
                                 <div class="form-group">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder='Search Keyword'
+                                        <input type="text" class="form-control" placeholder='Rechercher un mot-clé'
                                             onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Search Keyword'">
+                                            onblur="this.placeholder = 'Rechercher un mot-clé'">
                                         <div class="input-group-append">
                                             <button class="btns" type="button"><i class="ti-search"></i></button>
                                         </div>
                                     </div>
                                 </div>
                                 <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                    type="submit">Search</button>
+                                    type="submit">Rechercher</button>
                             </form>
                         </aside>
 
                         <aside class="single_sidebar_widget post_category_widget">
-                            <h4 class="widget_title">Category</h4>
+                            <h4 class="widget_title">Catégories</h4>
                             <ul class="list cat-list">
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Resaurant food</p>
-                                        <p>(37)</p>
+                                        <p>BTP & Construction</p>
+                                        <p>(12)</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Travel news</p>
-                                        <p>(10)</p>
+                                        <p>Énergie & Électricité</p>
+                                        <p>(8)</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Modern technology</p>
-                                        <p>(03)</p>
+                                        <p>Télécommunications</p>
+                                        <p>(5)</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Product</p>
-                                        <p>(11)</p>
+                                        <p>Réseaux informatiques</p>
+                                        <p>(4)</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Inspiration</p>
-                                        <p>21</p>
+                                        <p>Systèmes de sécurité</p>
+                                        <p>(3)</p>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Health Care (21)</p>
-                                        <p>09</p>
+                                        <p>Actualités entreprise</p>
+                                        <p>(6)</p>
                                     </a>
                                 </li>
                             </ul>
                         </aside>
 
                         <aside class="single_sidebar_widget popular_post_widget">
-                            <h3 class="widget_title">Recent Post</h3>
+                            <h3 class="widget_title">Articles récents</h3>
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_1.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 1) }}">
-                                        <h3>From life was you fish...</h3>
+                                        <h3>Bâtiment R+5 à Angré Djorobité</h3>
                                     </a>
-                                    <p>January 12, 2019</p>
+                                    <p>Il y a 5 jours</p>
                                 </div>
                             </div>
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 1) }}">
-                                        <h3>The Amazing Hubble</h3>
+                                        <h3>30 Villas Duplex à Yopougon-Songon</h3>
                                     </a>
-                                    <p>02 Hours ago</p>
+                                    <p>Il y a 2 heures</p>
                                 </div>
                             </div>
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 1) }}">
-                                        <h3>Astronomy Or Astrology</h3>
+                                        <h3>Immeuble R+3 à Bingerville</h3>
                                     </a>
-                                    <p>03 Hours ago</p>
+                                    <p>Il y a 3 heures</p>
                                 </div>
                             </div>
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 1) }}">
-                                        <h3>Asteroids telescope</h3>
+                                        <h3>Piscine à Jacqueville</h3>
                                     </a>
-                                    <p>01 Hours ago</p>
+                                    <p>Il y a 1 heure</p>
                                 </div>
                             </div>
                         </aside>
                         <aside class="single_sidebar_widget tag_cloud_widget">
-                            <h4 class="widget_title">Tag Clouds</h4>
+                            <h4 class="widget_title">Nuage de tags</h4>
                             <ul class="list">
                                 <li>
-                                    <a href="#">project</a>
+                                    <a href="#">projet</a>
                                 </li>
                                 <li>
-                                    <a href="#">love</a>
+                                    <a href="#">énergie</a>
                                 </li>
                                 <li>
-                                    <a href="#">technology</a>
+                                    <a href="#">technologie</a>
                                 </li>
                                 <li>
-                                    <a href="#">travel</a>
+                                    <a href="#">télécoms</a>
                                 </li>
                                 <li>
-                                    <a href="#">restaurant</a>
+                                    <a href="#">sécurité</a>
                                 </li>
                                 <li>
-                                    <a href="#">life style</a>
+                                    <a href="#">BTP</a>
                                 </li>
                                 <li>
-                                    <a href="#">design</a>
+                                    <a href="#">construction</a>
                                 </li>
                                 <li>
-                                    <a href="#">illustration</a>
+                                    <a href="#">ingénierie</a>
                                 </li>
                             </ul>
                         </aside>
 
 
                         <aside class="single_sidebar_widget instagram_feeds">
-                            <h4 class="widget_title">Instagram Feeds</h4>
+                            <h4 class="widget_title">Galerie photos</h4>
                             <ul class="instagram_row flex-wrap">
                                 <li>
                                     <a href="#">
@@ -336,10 +331,10 @@
                             <form action="#">
                                 <div class="form-group">
                                     <input type="email" class="form-control" onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                                        onblur="this.placeholder = 'Votre email'" placeholder='Votre email' required>
                                 </div>
                                 <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                    type="submit">Subscribe</button>
+                                    type="submit">S'abonner</button>
                             </form>
                         </aside>
                     </div>

@@ -16,7 +16,5 @@ Route::get('/projets/{id}', [PageController::class, 'projectShow'])->whereNumber
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 Route::get('/blog/{id}', [PageController::class, 'blogShow'])->whereNumber('id')->name('blog.show');
 
-Route::get('/elements', [PageController::class, 'elements'])->name('elements');
-
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
