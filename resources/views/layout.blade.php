@@ -36,8 +36,8 @@
     <!-- Structured data -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "GeneralContractor",
+        "@@context": "https://schema.org",
+        "@@type": "GeneralContractor",
         "name": "SYS-Technologies Group",
         "alternateName": "Sys Technologies Group",
         "url": "{{ url('/') }}",
@@ -47,7 +47,7 @@
         "email": "infos@sys-technologies.com",
         "description": "Entreprise d'ingénierie et de services techniques multidisciplinaires : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie et BTP.",
         "address": {
-            "@type": "PostalAddress",
+            "@@type": "PostalAddress",
             "addressLocality": "Abidjan",
             "addressCountry": "CI"
         },
