@@ -250,6 +250,21 @@
                         </div>
                      </div>
                   </aside>
+                  @if(!empty($sectorNews))
+                  <aside class="single_sidebar_widget popular_post_widget">
+                     <h3 class="widget_title">Veille du secteur</h3>
+                     @foreach($sectorNews as $news)
+                     <div class="media post_item">
+                        <div class="media-body" style="margin-left: 0;">
+                           <a href="{{ $news['link'] }}" target="_blank" rel="noopener noreferrer nofollow">
+                              <h3>{{ $news['title'] }}</h3>
+                           </a>
+                           <p>{{ $news['source'] }} · {{ \Carbon\Carbon::createFromTimestamp($news['timestamp'])->diffForHumans() }}</p>
+                        </div>
+                     </div>
+                     @endforeach
+                  </aside>
+                  @endif
                   <aside class="single_sidebar_widget tag_cloud_widget">
                      <h4 class="widget_title">Nuage de tags</h4>
                      <ul class="list">

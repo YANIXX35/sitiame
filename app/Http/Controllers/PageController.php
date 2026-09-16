@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\SectorNewsFeed;
+
 class PageController extends Controller
 {
     public function home()
@@ -34,13 +36,13 @@ class PageController extends Controller
         return view('pages.project_details', ['id' => $id]);
     }
 
-    public function blog()
+    public function blog(SectorNewsFeed $sectorNewsFeed)
     {
-        return view('pages.blog');
+        return view('pages.blog', ['sectorNews' => $sectorNewsFeed->getLatest()]);
     }
 
-    public function blogShow(int $id)
+    public function blogShow(int $id, SectorNewsFeed $sectorNewsFeed)
     {
-        return view('pages.single_blog', ['id' => $id]);
+        return view('pages.single_blog', ['id' => $id, 'sectorNews' => $sectorNewsFeed->getLatest()]);
     }
 }
