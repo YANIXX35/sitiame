@@ -13,14 +13,6 @@
                                         <li>Lun - Sam 8:00 - 17:30, Dimanche - Fermé</li>
                                     </ul>
                                 </div>
-                                <div class="header-info-right">
-                                    <ul class="header-social">    
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                       <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    </ul>
-                                </div>
                             </div>
                        </div>
                    </div>

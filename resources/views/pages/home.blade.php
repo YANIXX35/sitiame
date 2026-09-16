@@ -256,7 +256,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -268,7 +268,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -280,7 +280,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -292,7 +292,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -304,7 +304,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -316,7 +316,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -335,7 +335,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -347,7 +347,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -359,7 +359,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -371,7 +371,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -383,7 +383,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -395,7 +395,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -414,7 +414,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -426,7 +426,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -438,7 +438,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -450,7 +450,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -462,7 +462,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -474,7 +474,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -493,7 +493,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -505,7 +505,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -517,7 +517,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -529,7 +529,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -541,7 +541,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
@@ -553,7 +553,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>

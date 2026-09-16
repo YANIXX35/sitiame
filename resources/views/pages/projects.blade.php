@@ -225,72 +225,72 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="Bâtiment R+5 - Angré Djorobité">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+5</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="Piscine - Jacqueville">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Piscine</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Jacqueville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="Bâtiment R+3 - Anyama-Ebimpé">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Anyama-Ebimpé</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="30 Villas Duplex - Yopougon-Songon">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">30 Villas Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Yopougon-Songon</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="Immeuble R+2 - Bingerville (achèvement)">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+2</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville (achèvement)</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="Villa Duplex - Angré Kessié">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Villa Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Kessié</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -304,72 +304,72 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="Bâtiment R+5 - Angré Djorobité">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+5</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="Bâtiment R+3 - Anyama-Ebimpé">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Anyama-Ebimpé</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="Immeuble R+2 - Bingerville">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+2</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="Immeuble R+3 - Bingerville">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="Immeuble R+2 - Bingerville (achèvement)">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+2</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville (achèvement)</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="30 Villas Duplex - Yopougon-Songon">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">30 Villas Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Yopougon-Songon</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -383,72 +383,72 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project1.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="Piscine - Jacqueville">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Piscine</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Jacqueville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project2.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="Charpente métallique - Hangars et entrepôts">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Charpente métallique</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Hangars & entrepôts</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project3.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="Villa Duplex - Angré Kessié">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Villa Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Kessié</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project4.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="Trois Duplex - Angré Djorobité">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Trois Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project5.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="30 Villas Duplex - Yopougon-Songon">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">30 Villas Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Yopougon-Songon</a></h4>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="single-project mb-30">
                                                 <div class="project-img">
-                                                    <img src="{{ asset('assets/img/gallery/project6.png') }}" alt="">
+                                                    <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="Bâtiment R+5 - Angré Djorobité">
                                                 </div>
                                                 <div class="project-cap">
                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+5</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>

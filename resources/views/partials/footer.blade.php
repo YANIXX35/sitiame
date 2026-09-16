@@ -46,23 +46,16 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-8">
                                 <div class="single-footer-caption mb-50">
-                                    <!-- Form -->
-                                    <div class="footer-form">
-                                        <div id="mc_embed_signup">
-                                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                                <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Votre email " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Votre email '">
-                                                <div class="form-icon">
-                                                    <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
-                                                        S'ABONNER
-                                                    </button>
-                                                </div>
-                                                <div class="mt-10 info"></div>
-                                            </form>
-                                        </div>
+                                    <div class="footer-tittle">
+                                        <h4>Nous trouver</h4>
                                     </div>
                                     <!-- Map -->
                                     <div class="map-footer">
-                                        <img src="{{ asset('assets/img/gallery/map-footer.png') }}" alt="">
+                                        <iframe
+                                            src="https://www.google.com/maps?q=Abidjan,+C%C3%B4te+d%27Ivoire&output=embed"
+                                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade" title="Localisation SYS-Technologies Group - Abidjan">
+                                        </iframe>
                                     </div>
                                 </div>
                             </div>

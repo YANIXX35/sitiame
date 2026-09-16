@@ -61,17 +61,10 @@
                   </div>
                </div>
                <div class="navigation-top">
-                  <div class="d-sm-flex justify-content-between text-center">
-                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> 4
-                        personnes aiment cet article</p>
-                     <div class="col-sm-4 text-center my-2 my-sm-0">
-                        <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
-                     </div>
+                  <div class="d-sm-flex justify-content-end text-center">
                      <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="https://wa.me/2250716468149" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="mailto:infos@sys-technologies.com"><i class="fa fa-envelope"></i></a></li>
                      </ul>
                   </div>
                   <div class="navigation-area">
