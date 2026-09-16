@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Détail service')
+@section('meta_description', "Ingénierie technique & mise en œuvre par SYS-Technologies Group : conception, installation, maintenance et audit de vos systèmes techniques.")
 
 @section('content')
 <!-- slider Area Start-->

@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Services')
+@section('meta_description', "Nos services : télécommunications, réseaux informatiques, énergie & électricité, systèmes de sécurité, BTP & génie civil, énergies renouvelables. SYS-Technologies Group à Abidjan.")
 
 @section('content')
 <!-- slider Area Start-->

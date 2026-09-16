@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Article')
+@section('meta_description', "Article de blog SYS-Technologies Group : retour sur nos chantiers et notre expertise technique en BTP, énergie et technologies à Abidjan.")
 
 @section('content')
 <!-- slider Area Start-->

@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Accueil')
+@section('meta_description', "SYS-Technologies Group : ingénierie et BTP à Abidjan. Construction, énergie, télécommunications, réseaux informatiques et sécurité électronique. Découvrez nos projets réalisés.")
 
 @section('content')
 <!-- slider Area Start-->

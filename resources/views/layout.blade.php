@@ -3,10 +3,57 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>@yield('title', 'Sys Technologies Group') | Sys Technologies Group</title>
-    <meta name="description" content="Sys Technologies Group - Ingénierie, solutions technologiques et services techniques multidisciplinaires : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie, BTP & infrastructures techniques. Basée à Abidjan.">
+    @php
+        $pageTitle = trim(\Illuminate\Support\Facades\View::hasSection('title') ? \Illuminate\Support\Facades\View::yieldContent('title') : 'Sys Technologies Group');
+        $metaDescription = \Illuminate\Support\Facades\View::hasSection('meta_description')
+            ? trim(\Illuminate\Support\Facades\View::yieldContent('meta_description'))
+            : "SYS-Technologies Group est une entreprise d'ingénierie et de services techniques multidisciplinaires basée à Abidjan : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie et BTP.";
+        $ogImage = \Illuminate\Support\Facades\View::hasSection('meta_image') ? trim(\Illuminate\Support\Facades\View::yieldContent('meta_image')) : asset('assets/img/hero/h1_hero.jpg');
+    @endphp
+    <title>{{ $pageTitle }} | Sys Technologies Group</title>
+    <meta name="description" content="{{ $metaDescription }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="{{ url()->current() }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/img/favicon.png') }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:site_name" content="Sys Technologies Group">
+    <meta property="og:title" content="{{ $pageTitle }} | Sys Technologies Group">
+    <meta property="og:description" content="{{ $metaDescription }}">
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $pageTitle }} | Sys Technologies Group">
+    <meta name="twitter:description" content="{{ $metaDescription }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "GeneralContractor",
+        "name": "SYS-Technologies Group",
+        "alternateName": "Sys Technologies Group",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('assets/img/logo/logo.png') }}",
+        "image": "{{ $ogImage }}",
+        "telephone": "+2250716468149",
+        "email": "infos@sys-technologies.com",
+        "description": "Entreprise d'ingénierie et de services techniques multidisciplinaires : énergie, télécommunications, informatique & réseaux, sécurité électronique/incendie et BTP.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Abidjan",
+            "addressCountry": "CI"
+        },
+        "areaServed": "Côte d'Ivoire"
+    }
+    </script>
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

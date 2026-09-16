@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Contact')
+@section('meta_description', "Contactez SYS-Technologies Group à Abidjan : +225 07 16 46 81 49 / infos@sys-technologies.com. Nous répondons à toutes vos demandes de projets techniques et BTP.")
 
 @section('content')
 <!-- slider Area Start-->

@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('title', 'Détail projet')
+@section('meta_description', "Détail d'un projet BTP réalisé par SYS-Technologies Group : méthodologie, objectifs et savoir-faire technique mis en œuvre sur le chantier.")
 
 @section('content')
 <!-- slider Area Start-->
