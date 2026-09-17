@@ -33,7 +33,7 @@
                     <div class="blog_left_sidebar">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_1.png') }}" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
@@ -54,7 +54,7 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_2.png') }}" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
@@ -75,7 +75,7 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_3.png') }}" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
@@ -96,7 +96,7 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_4.png') }}" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
@@ -117,7 +117,7 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/single_blog_5.png') }}" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/energies-shelters-courants-forts.png') }}" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
@@ -222,7 +222,7 @@
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Articles récents</h3>
                             <div class="media post_item">
-                                <img src="{{ asset('assets/img/post/post_1.png') }}" alt="post">
+                                <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 1) }}">
                                         <h3>Bâtiment R+5 à Angré Djorobité</h3>
@@ -231,7 +231,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
+                                <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 2) }}">
                                         <h3>30 Villas Duplex à Yopougon-Songon</h3>
@@ -240,7 +240,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
+                                <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 3) }}">
                                         <h3>Immeuble R+3 à Bingerville</h3>
@@ -249,7 +249,7 @@
                                 </div>
                             </div>
                             <div class="media post_item">
-                                <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
+                                <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="post">
                                 <div class="media-body">
                                     <a href="{{ route('blog.show', 4) }}">
                                         <h3>Piscine à Jacqueville</h3>
@@ -309,32 +309,32 @@
                             <ul class="instagram_row flex-wrap">
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_5.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_6.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_7.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_8.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_9.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-fluid" src="{{ asset('assets/img/post/post_10.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/electricite-composantes.png') }}" alt="">
                                     </a>
                                 </li>
                             </ul>

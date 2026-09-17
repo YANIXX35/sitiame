@@ -2,7 +2,7 @@
 
 @section('title', $article['title'])
 @section('meta_description', $article['excerpt'])
-@section('meta_image', asset('assets/img/blog/'.$article['image']))
+@section('meta_image', asset('assets/img/'.$article['image']))
 
 @section('content')
 <!-- slider Area Start-->
@@ -34,7 +34,7 @@
             <div class="col-lg-8 posts-list">
                <div class="single-post">
                   <div class="feature-img">
-                     <img class="img-fluid" src="{{ asset('assets/img/blog/'.$article['image']) }}" alt="{{ $article['title'] }}">
+                     <img class="img-fluid" src="{{ asset('assets/img/'.$article['image']) }}" alt="{{ $article['title'] }}">
                   </div>
                   <div class="blog_details">
                      <h2>{{ $article['title'] }}
@@ -210,7 +210,7 @@
                   <aside class="single_sidebar_widget popular_post_widget">
                      <h3 class="widget_title">Articles récents</h3>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/post/post_1.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
                               <h3>Bâtiment R+5 à Angré Djorobité</h3>
@@ -219,7 +219,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 2) }}">
                               <h3>30 Villas Duplex à Yopougon-Songon</h3>
@@ -228,7 +228,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 3) }}">
                               <h3>Immeuble R+3 à Bingerville</h3>
@@ -237,7 +237,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 4) }}">
                               <h3>Piscine à Jacqueville</h3>
@@ -295,32 +295,32 @@
                      <ul class="instagram_row flex-wrap">
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_5.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/trois-duplex-angre-djorobite.jpeg') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_6.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_7.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_8.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_9.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/post/post_10.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/electricite-composantes.png') }}" alt="">
                            </a>
                         </li>
                      </ul>
