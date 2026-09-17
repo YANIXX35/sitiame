@@ -41,7 +41,6 @@
                      </h2>
                      <ul class="blog-info-link mt-3 mb-4">
                         <li><a href="#"><i class="fa fa-user"></i> {{ $article['tag'] }}</a></li>
-                        <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                      </ul>
                      <p class="excert">
                         {{ $article['intro'] }}
@@ -117,37 +116,6 @@
                      </div>
                   </div>
                </div>
-               <div class="comment-form">
-                  <h4>Laisser un commentaire</h4>
-                  <form class="form-contact comment_form" action="#" id="commentForm">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="form-group">
-                              <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
-                                 placeholder="Votre commentaire"></textarea>
-                           </div>
-                        </div>
-                        <div class="col-sm-6">
-                           <div class="form-group">
-                              <input class="form-control" name="name" id="name" type="text" placeholder="Nom">
-                           </div>
-                        </div>
-                        <div class="col-sm-6">
-                           <div class="form-group">
-                              <input class="form-control" name="email" id="email" type="email" placeholder="Email">
-                           </div>
-                        </div>
-                        <div class="col-12">
-                           <div class="form-group">
-                              <input class="form-control" name="website" id="website" type="text" placeholder="Site web">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="form-group">
-                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Envoyer</button>
-                     </div>
-                  </form>
-               </div>
             </div>
             <div class="col-lg-4">
                <div class="blog_right_sidebar">
@@ -169,48 +137,20 @@
                   <aside class="single_sidebar_widget post_category_widget">
                      <h4 class="widget_title">Catégories</h4>
                      <ul class="list cat-list">
+                        @foreach($categories as $name => $count)
                         <li>
-                           <a href="#" class="d-flex">
-                              <p>BTP & Construction</p>
-                              <p>(12)</p>
+                           <a href="{{ route('blog', ['q' => $name]) }}" class="d-flex">
+                              <p>{{ $name }}</p>
+                              <p>({{ $count }})</p>
                            </a>
                         </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Énergie & Électricité</p>
-                              <p>(8)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Télécommunications</p>
-                              <p>(5)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Réseaux informatiques</p>
-                              <p>(4)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Systèmes de sécurité</p>
-                              <p>(3)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Actualités entreprise</p>
-                              <p>(6)</p>
-                           </a>
-                        </li>
+                        @endforeach
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget popular_post_widget">
                      <h3 class="widget_title">Articles récents</h3>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.jpg') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 1) }}">
                               <h3>Bâtiment R+5 à Angré Djorobité</h3>
@@ -219,7 +159,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.jpg') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 2) }}">
                               <h3>30 Villas Duplex à Yopougon-Songon</h3>
@@ -228,7 +168,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.jpg') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 3) }}">
                               <h3>Immeuble R+3 à Bingerville</h3>
@@ -237,7 +177,7 @@
                         </div>
                      </div>
                      <div class="media post_item">
-                        <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="post">
+                        <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.jpg') }}" alt="post">
                         <div class="media-body">
                            <a href="{{ route('blog.show', 4) }}">
                               <h3>Piscine à Jacqueville</h3>
@@ -264,30 +204,11 @@
                   <aside class="single_sidebar_widget tag_cloud_widget">
                      <h4 class="widget_title">Nuage de tags</h4>
                      <ul class="list">
+                        @foreach($categories as $name => $count)
                         <li>
-                           <a href="#">projet</a>
+                           <a href="{{ route('blog', ['q' => $name]) }}">{{ $name }}</a>
                         </li>
-                        <li>
-                           <a href="#">énergie</a>
-                        </li>
-                        <li>
-                           <a href="#">technologie</a>
-                        </li>
-                        <li>
-                           <a href="#">télécoms</a>
-                        </li>
-                        <li>
-                           <a href="#">sécurité</a>
-                        </li>
-                        <li>
-                           <a href="#">BTP</a>
-                        </li>
-                        <li>
-                           <a href="#">construction</a>
-                        </li>
-                        <li>
-                           <a href="#">ingénierie</a>
-                        </li>
+                        @endforeach
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget instagram_feeds">
@@ -300,12 +221,12 @@
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.jpg') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.jpg') }}" alt="">
                            </a>
                         </li>
                         <li>
@@ -315,21 +236,27 @@
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/charpente-metallique.jpg') }}" alt="">
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/electricite-composantes.png') }}" alt="">
+                              <img class="img-fluid" src="{{ asset('assets/img/gallery/projects/electricite-composantes.jpg') }}" alt="">
                            </a>
                         </li>
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget newsletter_widget">
                      <h4 class="widget_title">Newsletter</h4>
-                     <form action="#">
+
+                     @if (session('status'))
+                         <div class="alert alert-success">{{ session('status') }}</div>
+                     @endif
+
+                     <form action="{{ route('newsletter.subscribe') }}" method="post">
+                        @csrf
                         <div class="form-group">
-                           <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                           <input type="email" name="email" class="form-control" onfocus="this.placeholder = ''"
                               onblur="this.placeholder = 'Votre email'" placeholder='Votre email' required>
                         </div>
                         <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"

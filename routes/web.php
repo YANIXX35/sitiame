@@ -18,3 +18,5 @@ Route::get('/blog/{id}', [PageController::class, 'blogShow'])->whereNumber('id')
 
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+Route::post('/newsletter', [ContactController::class, 'subscribeNewsletter'])->name('newsletter.subscribe');

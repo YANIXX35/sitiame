@@ -48,19 +48,29 @@ class PageController extends Controller
     public function blog(Request $request, SectorNewsFeed $sectorNewsFeed)
     {
         $query = trim((string) $request->query('q', ''));
-        $articles = config('blog_articles');
+        $allArticles = config('blog_articles');
+        $articles = $allArticles;
 
         if ($query !== '') {
-            $articles = array_filter($articles, function ($article) use ($query) {
+            $articles = array_filter($allArticles, function ($article) use ($query) {
                 $haystack = $article['title'].' '.$article['excerpt'].' '.$article['tag'];
 
                 return mb_stripos($haystack, $query) !== false;
             });
         }
 
+        $categories = [];
+        foreach ($allArticles as $article) {
+            foreach (explode(',', $article['tag']) as $tag) {
+                $tag = trim($tag);
+                $categories[$tag] = ($categories[$tag] ?? 0) + 1;
+            }
+        }
+
         return view('pages.blog', [
             'articles' => $articles,
             'query' => $query,
+            'categories' => $categories,
             'sectorNews' => $sectorNewsFeed->getLatest(),
         ]);
     }
@@ -71,6 +81,19 @@ class PageController extends Controller
 
         abort_if($article === null, 404);
 
-        return view('pages.single_blog', ['id' => $id, 'article' => $article, 'sectorNews' => $sectorNewsFeed->getLatest()]);
+        $categories = [];
+        foreach (config('blog_articles') as $a) {
+            foreach (explode(',', $a['tag']) as $tag) {
+                $tag = trim($tag);
+                $categories[$tag] = ($categories[$tag] ?? 0) + 1;
+            }
+        }
+
+        return view('pages.single_blog', [
+            'id' => $id,
+            'article' => $article,
+            'categories' => $categories,
+            'sectorNews' => $sectorNewsFeed->getLatest(),
+        ]);
     }
 }
