@@ -62,7 +62,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
+                                <a class="d-inline-block" href="{{ route('blog.show', 2) }}">
                                     <h2>30 Villas Duplex à Yopougon-Songon : un projet d'envergure</h2>
                                 </a>
                                 <p>Un programme immobilier ambitieux illustrant notre capacité à gérer des chantiers de grande envergure, de l'étude technique à la livraison.</p>
@@ -83,7 +83,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
+                                <a class="d-inline-block" href="{{ route('blog.show', 3) }}">
                                     <h2>Immeuble R+3 à Bingerville : travaux de fondation achevés</h2>
                                 </a>
                                 <p>Les fondations de cet immeuble ont été réalisées avec rigueur par nos équipes techniques, posant les bases d'une structure durable.</p>
@@ -104,7 +104,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
+                                <a class="d-inline-block" href="{{ route('blog.show', 4) }}">
                                     <h2>Piscine à Jacqueville : un chantier vers l'achèvement</h2>
                                 </a>
                                 <p>Un projet technique combinant génie civil et étanchéité, mené en parallèle de nos autres chantiers résidentiels.</p>
@@ -125,7 +125,7 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
+                                <a class="d-inline-block" href="{{ route('blog.show', 5) }}">
                                     <h2>SYS-Technologies Group renforce son expertise en énergies renouvelables</h2>
                                 </a>
                                 <p>Photovoltaïque, pompage solaire, optimisation énergétique : notre équipe technique développe son savoir-faire sur les solutions d'énergie renouvelable.</p>
@@ -233,7 +233,7 @@
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
                                 <div class="media-body">
-                                    <a href="{{ route('blog.show', 1) }}">
+                                    <a href="{{ route('blog.show', 2) }}">
                                         <h3>30 Villas Duplex à Yopougon-Songon</h3>
                                     </a>
                                     <p>Il y a 2 heures</p>
@@ -242,7 +242,7 @@
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
                                 <div class="media-body">
-                                    <a href="{{ route('blog.show', 1) }}">
+                                    <a href="{{ route('blog.show', 3) }}">
                                         <h3>Immeuble R+3 à Bingerville</h3>
                                     </a>
                                     <p>Il y a 3 heures</p>
@@ -251,7 +251,7 @@
                             <div class="media post_item">
                                 <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
                                 <div class="media-body">
-                                    <a href="{{ route('blog.show', 1) }}">
+                                    <a href="{{ route('blog.show', 4) }}">
                                         <h3>Piscine à Jacqueville</h3>
                                     </a>
                                     <p>Il y a 1 heure</p>

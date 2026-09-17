@@ -51,6 +51,10 @@ class PageController extends Controller
 
     public function blogShow(int $id, SectorNewsFeed $sectorNewsFeed)
     {
-        return view('pages.single_blog', ['id' => $id, 'sectorNews' => $sectorNewsFeed->getLatest()]);
+        $article = config("blog_articles.{$id}");
+
+        abort_if($article === null, 404);
+
+        return view('pages.single_blog', ['id' => $id, 'article' => $article, 'sectorNews' => $sectorNewsFeed->getLatest()]);
     }
 }

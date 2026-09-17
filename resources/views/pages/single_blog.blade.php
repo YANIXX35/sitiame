@@ -1,7 +1,8 @@
 @extends('layout')
 
-@section('title', 'Article')
-@section('meta_description', "Article de blog SYS-Technologies Group : retour sur nos chantiers et notre expertise technique en BTP, énergie et technologies à Abidjan.")
+@section('title', $article['title'])
+@section('meta_description', $article['excerpt'])
+@section('meta_image', asset('assets/img/blog/'.$article['image']))
 
 @section('content')
 <!-- slider Area Start-->
@@ -11,11 +12,12 @@
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="hero-cap pt-100">
-							<h2>Article</h2>
+							<h2>{{ $article['title'] }}</h2>
 							<nav aria-label="breadcrumb ">
 								<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
-								<li class="breadcrumb-item"><a href="#">Article</a></li> 
+								<li class="breadcrumb-item"><a href="{{ route('blog') }}">Blog</a></li>
+								<li class="breadcrumb-item"><a href="#">{{ $article['title'] }}</a></li>
 								</ol>
 							</nav>
 						</div>
@@ -32,32 +34,26 @@
             <div class="col-lg-8 posts-list">
                <div class="single-post">
                   <div class="feature-img">
-                     <img class="img-fluid" src="{{ asset('assets/img/blog/single_blog_1.png') }}" alt="">
+                     <img class="img-fluid" src="{{ asset('assets/img/blog/'.$article['image']) }}" alt="{{ $article['title'] }}">
                   </div>
                   <div class="blog_details">
-                     <h2>Bâtiment R+5 à Angré Djorobité : une réalisation clé
+                     <h2>{{ $article['title'] }}
                      </h2>
                      <ul class="blog-info-link mt-3 mb-4">
-                        <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i> {{ $article['tag'] }}</a></li>
                         <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                      </ul>
                      <p class="excert">
-                        Ce chantier illustre parfaitement le savoir-faire de SYS-Technologies Group en matière de génie civil et de construction de bâtiments à plusieurs niveaux, mené du terrassement jusqu'aux finitions.
+                        {{ $article['intro'] }}
                      </p>
                      <p>
-                        Notre équipe technique a procédé à une étude et un dimensionnement rigoureux avant l'exécution des travaux, afin d'anticiper les contraintes du terrain et garantir la solidité de l'ouvrage sur le long terme.
+                        {{ $article['body'] }}
                      </p>
                      <div class="quote-wrapper">
                         <div class="quotes">
                            Qualité et conformité aux normes, respect des délais, sécurité des installations : ce sont les engagements qui guident chacune de nos interventions sur le terrain.
                         </div>
                      </div>
-                     <p>
-                        Les travaux ont couvert l'ensemble des lots : terrassement, fondations, gros œuvre, plomberie sanitaire et assainissement, faux plafond, carrelage et peinture.
-                     </p>
-                     <p>
-                        Le résultat est un bâtiment livré dans les délais convenus, conforme aux exigences techniques et de sécurité, et pleinement adapté aux besoins du client.
-                     </p>
                   </div>
                </div>
                <div class="navigation-top">
@@ -83,8 +79,8 @@
                            </div>
                            <div class="detials">
                               <p>Article précédent</p>
-                              <a href="#">
-                                 <h4>30 Villas Duplex à Yopougon-Songon</h4>
+                              <a href="{{ route('blog.show', $article['prev']) }}">
+                                 <h4>{{ config('blog_articles.'.$article['prev'].'.title') }}</h4>
                               </a>
                            </div>
                         </div>
@@ -92,8 +88,8 @@
                            class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                            <div class="detials">
                               <p>Article suivant</p>
-                              <a href="#">
-                                 <h4>Immeuble R+3 à Bingerville</h4>
+                              <a href="{{ route('blog.show', $article['next']) }}">
+                                 <h4>{{ config('blog_articles.'.$article['next'].'.title') }}</h4>
                               </a>
                            </div>
                            <div class="arrow">
@@ -225,7 +221,7 @@
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_2.png') }}" alt="post">
                         <div class="media-body">
-                           <a href="{{ route('blog.show', 1) }}">
+                           <a href="{{ route('blog.show', 2) }}">
                               <h3>30 Villas Duplex à Yopougon-Songon</h3>
                            </a>
                            <p>Il y a 2 heures</p>
@@ -234,7 +230,7 @@
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_3.png') }}" alt="post">
                         <div class="media-body">
-                           <a href="{{ route('blog.show', 1) }}">
+                           <a href="{{ route('blog.show', 3) }}">
                               <h3>Immeuble R+3 à Bingerville</h3>
                            </a>
                            <p>Il y a 3 heures</p>
@@ -243,7 +239,7 @@
                      <div class="media post_item">
                         <img src="{{ asset('assets/img/post/post_4.png') }}" alt="post">
                         <div class="media-body">
-                           <a href="{{ route('blog.show', 1) }}">
+                           <a href="{{ route('blog.show', 4) }}">
                               <h3>Piscine à Jacqueville</h3>
                            </a>
                            <p>Il y a 1 heure</p>
