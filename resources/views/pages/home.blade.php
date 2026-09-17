@@ -65,8 +65,8 @@
                                 <img src="{{ asset('assets/img/service/servicess1.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">Énergie & Électricité</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 3) }}">Énergie & Électricité</a></h4>
+                                <a href="{{ route('services.show', 3) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -93,8 +93,8 @@
                                 <img src="{{ asset('assets/img/service/servicess3.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">BTP & Génie civil</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 5) }}">BTP & Génie civil</a></h4>
+                                <a href="{{ route('services.show', 5) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -192,9 +192,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="Immeuble R+2 - Bingerville">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+2</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
+                                                    <a href="{{ route('projects.show', 2) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 2) }}">Immeuble R+2</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 2) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,9 +204,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="Immeuble R+3 - Bingerville">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Immeuble R+3</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Bingerville</a></h4>
+                                                    <a href="{{ route('projects.show', 3) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 3) }}">Immeuble R+3</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 3) }}">Bingerville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -216,9 +216,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="30 Villas Duplex - Yopougon-Songon">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">30 Villas Duplex</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Yopougon-Songon</a></h4>
+                                                    <a href="{{ route('projects.show', 5) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 5) }}">30 Villas Duplex</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 5) }}">Yopougon-Songon</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,9 +228,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="Bâtiment R+5 - Angré Djorobité">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Bâtiment R+5</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Angré Djorobité</a></h4>
+                                                    <a href="{{ route('projects.show', 7) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 7) }}">Bâtiment R+5</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 7) }}">Angré Djorobité</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,9 +240,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="Piscine - Jacqueville">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Piscine</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">Jacqueville</a></h4>
+                                                    <a href="{{ route('projects.show', 8) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 8) }}">Piscine</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 8) }}">Jacqueville</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,9 +271,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 2) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 2) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 2) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,9 +283,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 10) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 10) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 10) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -295,9 +295,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 3) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 3) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 3) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,9 +307,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 4) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 4) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 4) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -319,9 +319,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 5) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 5) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 5) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -338,9 +338,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 6) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 6) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 6) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -350,9 +350,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 7) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 7) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 7) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,9 +362,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 8) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 8) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 8) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -374,9 +374,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 9) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 9) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 9) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -398,9 +398,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 2) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 2) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 2) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -417,9 +417,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 10) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 10) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 10) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -429,9 +429,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 3) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 3) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 3) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -441,9 +441,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/villa-angre-kessie.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 4) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 4) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 4) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -453,9 +453,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 5) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 5) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 5) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -465,9 +465,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-anyama-ebimpe.jpeg') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 6) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 6) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 6) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -477,9 +477,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 7) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 7) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 7) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -496,9 +496,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 8) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 8) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 8) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -508,9 +508,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/charpente-metallique.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 9) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 9) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 9) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -532,9 +532,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-1.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 2) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 2) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 2) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -544,9 +544,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r2-bingerville-2.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 10) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 10) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 10) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -556,9 +556,9 @@
                                                     <img src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                    <a href="{{ route('projects.show', 1) }}" class="plus-btn"><i class="ti-plus"></i></a>
-                                                   <h4><a href="{{ route('projects.show', 1) }}">Projet BTP</a></h4>
-                                                    <h4><a href="{{ route('projects.show', 1) }}">SYS-Technologies Group</a></h4>
+                                                    <a href="{{ route('projects.show', 3) }}" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <h4><a href="{{ route('projects.show', 3) }}">Projet BTP</a></h4>
+                                                    <h4><a href="{{ route('projects.show', 3) }}">SYS-Technologies Group</a></h4>
                                                 </div>
                                             </div>
                                         </div>

@@ -60,8 +60,8 @@
                                 <img src="{{ asset('assets/img/service/servicess2.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">Réseaux informatiques</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 2) }}">Réseaux informatiques</a></h4>
+                                <a href="{{ route('services.show', 2) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -74,8 +74,8 @@
                                 <img src="{{ asset('assets/img/service/servicess3.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">Énergie & Électricité</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 3) }}">Énergie & Électricité</a></h4>
+                                <a href="{{ route('services.show', 3) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -88,8 +88,8 @@
                                 <img src="{{ asset('assets/img/service/servicess4.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">Systèmes de sécurité</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 4) }}">Systèmes de sécurité</a></h4>
+                                <a href="{{ route('services.show', 4) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -102,8 +102,8 @@
                                 <img src="{{ asset('assets/img/service/servicess5.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">BTP & Génie civil</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 5) }}">BTP & Génie civil</a></h4>
+                                <a href="{{ route('services.show', 5) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">
@@ -116,8 +116,8 @@
                                 <img src="{{ asset('assets/img/service/servicess6.png') }}" alt="">
                             </div>
                             <div class="service-cap">
-                                <h4><a href="{{ route('services.show', 1) }}">Énergies renouvelables</a></h4>
-                                <a href="{{ route('services.show', 1) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
+                                <h4><a href="{{ route('services.show', 6) }}">Énergies renouvelables</a></h4>
+                                <a href="{{ route('services.show', 6) }}" class="more-btn">Lire plus <i class="ti-plus"></i></a>
                             </div>
                             <div class="service-icon">
                                 <img src="{{ asset('assets/img/icon/services_icon1.png') }}" alt="">

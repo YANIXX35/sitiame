@@ -23,7 +23,11 @@ class PageController extends Controller
 
     public function serviceShow(int $id)
     {
-        return view('pages.services_details', ['id' => $id]);
+        $service = config("service_offerings.{$id}");
+
+        abort_if($service === null, 404);
+
+        return view('pages.services_details', ['id' => $id, 'service' => $service]);
     }
 
     public function projects()
@@ -33,7 +37,11 @@ class PageController extends Controller
 
     public function projectShow(int $id)
     {
-        return view('pages.project_details', ['id' => $id]);
+        $project = config("projects.{$id}");
+
+        abort_if($project === null, 404);
+
+        return view('pages.project_details', ['id' => $id, 'project' => $project]);
     }
 
     public function blog(SectorNewsFeed $sectorNewsFeed)

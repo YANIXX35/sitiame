@@ -1,7 +1,8 @@
 @extends('layout')
 
-@section('title', 'Détail projet')
-@section('meta_description', "Détail d'un projet BTP réalisé par SYS-Technologies Group : méthodologie, objectifs et savoir-faire technique mis en œuvre sur le chantier.")
+@section('title', $project['name'].' - '.$project['location'])
+@section('meta_description', $project['intro'])
+@section('meta_image', asset('assets/img/gallery/projects/'.$project['image']))
 
 @section('content')
 <!-- slider Area Start-->
@@ -11,11 +12,12 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap pt-100">
-                                <h2>Détail du projet</h2>
+                                <h2>{{ $project['name'] }} - {{ $project['location'] }}</h2>
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="{{ route('home') }}">Accueil</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Détail du projet</a></li>
+                                    <li class="breadcrumb-item"><a href="{{ route('projects') }}">Projets</a></li>
+                                    <li class="breadcrumb-item"><a href="#">{{ $project['name'] }}</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -32,18 +34,20 @@
                     <div class="col-12">
                         <div class="single-services section-padding2">
                             <div class="details-img mb-40">
-                                <img src="{{ asset('assets/img/gallery/project_details.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/gallery/projects/'.$project['image']) }}" alt="{{ $project['name'] }} - {{ $project['location'] }}">
                             </div>
                             <div class="details-caption">
-                                <p>Ce projet a été réalisé en interne par les équipes de SYS-Technologies Group, dans le respect des délais, des normes de qualité et de sécurité applicables aux travaux de construction et de génie civil.</p>
+                                <p>{{ $project['intro'] }}</p>
 
-                                <p class="mb-50">Il illustre le savoir-faire de l'entreprise sur l'ensemble de la chaîne : terrassement, fondations, gros œuvre, second œuvre (plomberie, faux plafond, carrelage, peinture) jusqu'à la livraison finale.</p>
+                                <p class="mb-50">{{ $project['details'] }}</p>
 
                                 <h3>Notre objectif principal</h3>
                                 <p class="mb-50">Livrer un ouvrage conforme aux normes, dans les délais convenus, en assurant une communication transparente avec le client à chaque étape du chantier.</p>
 
                                 <h3>Les défis du chantier</h3>
                                 <p>Chaque projet présente ses propres contraintes techniques et logistiques. Notre équipe technique procède à une étude et un dimensionnement rigoureux avant l'exécution, afin d'anticiper ces défis et garantir un résultat de haute qualité.</p>
+
+                                <a href="{{ route('projects') }}" class="btn red-btn2 mt-3">Voir tous nos projets</a>
                             </div>
                         </div>
                     </div>
