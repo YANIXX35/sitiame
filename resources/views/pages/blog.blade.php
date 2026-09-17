@@ -31,144 +31,48 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
+                        @if($query !== '')
+                        <p class="mb-4">Résultats pour « {{ $query }} » ({{ count($articles) }})&nbsp;&mdash;&nbsp;<a href="{{ route('blog') }}">réinitialiser</a></p>
+                        @endif
+
+                        @forelse($articles as $id => $article)
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/r5-angre-djorobite.png') }}" alt="">
-                                <a href="#" class="blog_item_date">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/'.$article['image']) }}" alt="{{ $article['title'] }}">
+                                <a href="{{ route('blog.show', $id) }}" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Sept</p>
                                 </a>
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 1) }}">
-                                    <h2>Bâtiment R+5 à Angré Djorobité : une réalisation clé</h2>
+                                <a class="d-inline-block" href="{{ route('blog.show', $id) }}">
+                                    <h2>{{ $article['title'] }}</h2>
                                 </a>
-                                <p>Retour sur un chantier d'envergure mené par nos équipes, du terrassement jusqu'aux finitions, dans le respect des délais et des normes de construction.</p>
+                                <p>{{ $article['excerpt'] }}</p>
                                 <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
+                                    <li><a href="#"><i class="fa fa-user"></i> {{ $article['tag'] }}</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
                                 </ul>
                             </div>
                         </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/30-villas-yopougon-songon.png') }}" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Sept</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 2) }}">
-                                    <h2>30 Villas Duplex à Yopougon-Songon : un projet d'envergure</h2>
-                                </a>
-                                <p>Un programme immobilier ambitieux illustrant notre capacité à gérer des chantiers de grande envergure, de l'étude technique à la livraison.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/r3-bingerville-fondation.png') }}" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Sept</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 3) }}">
-                                    <h2>Immeuble R+3 à Bingerville : travaux de fondation achevés</h2>
-                                </a>
-                                <p>Les fondations de cet immeuble ont été réalisées avec rigueur par nos équipes techniques, posant les bases d'une structure durable.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/piscine-jacqueville.png') }}" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Sept</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 4) }}">
-                                    <h2>Piscine à Jacqueville : un chantier vers l'achèvement</h2>
-                                </a>
-                                <p>Un projet technique combinant génie civil et étanchéité, mené en parallèle de nos autres chantiers résidentiels.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> BTP, Construction</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="{{ asset('assets/img/gallery/projects/energies-shelters-courants-forts.png') }}" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Sept</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="{{ route('blog.show', 5) }}">
-                                    <h2>SYS-Technologies Group renforce son expertise en énergies renouvelables</h2>
-                                </a>
-                                <p>Photovoltaïque, pompage solaire, optimisation énergétique : notre équipe technique développe son savoir-faire sur les solutions d'énergie renouvelable.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Énergie, Technologies</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Commentaires</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <nav class="blog-pagination justify-content-center d-flex">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Previous">
-                                        <i class="ti-angle-left"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link">1</a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="#" class="page-link">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Next">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                        @empty
+                        <p>Aucun article ne correspond à votre recherche.</p>
+                        @endforelse
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="blog_right_sidebar">
                         <aside class="single_sidebar_widget search_widget">
-                            <form action="#">
+                            <form action="{{ route('blog') }}" method="get">
                                 <div class="form-group">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder='Rechercher un mot-clé'
+                                        <input type="text" name="q" class="form-control" placeholder='Rechercher un mot-clé'
+                                            value="{{ $query }}"
                                             onfocus="this.placeholder = ''"
                                             onblur="this.placeholder = 'Rechercher un mot-clé'">
                                         <div class="input-group-append">
-                                            <button class="btns" type="button"><i class="ti-search"></i></button>
+                                            <button class="btns" type="submit"><i class="ti-search"></i></button>
                                         </div>
                                     </div>
                                 </div>

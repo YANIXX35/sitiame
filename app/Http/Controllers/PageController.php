@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\SectorNewsFeed;
+use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
@@ -44,9 +45,24 @@ class PageController extends Controller
         return view('pages.project_details', ['id' => $id, 'project' => $project]);
     }
 
-    public function blog(SectorNewsFeed $sectorNewsFeed)
+    public function blog(Request $request, SectorNewsFeed $sectorNewsFeed)
     {
-        return view('pages.blog', ['sectorNews' => $sectorNewsFeed->getLatest()]);
+        $query = trim((string) $request->query('q', ''));
+        $articles = config('blog_articles');
+
+        if ($query !== '') {
+            $articles = array_filter($articles, function ($article) use ($query) {
+                $haystack = $article['title'].' '.$article['excerpt'].' '.$article['tag'];
+
+                return mb_stripos($haystack, $query) !== false;
+            });
+        }
+
+        return view('pages.blog', [
+            'articles' => $articles,
+            'query' => $query,
+            'sectorNews' => $sectorNewsFeed->getLatest(),
+        ]);
     }
 
     public function blogShow(int $id, SectorNewsFeed $sectorNewsFeed)
