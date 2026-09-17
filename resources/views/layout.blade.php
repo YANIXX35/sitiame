@@ -76,6 +76,9 @@
         .header-bottom.sticky .logo img { max-height: 45px; }
         .footer-logo img { max-height: 55px; width: auto; }
         .preloader-img img { max-height: 90px; width: auto; }
+        .instagram_row li a { display: block; aspect-ratio: 1 / 1; overflow: hidden; }
+        .instagram_row li img { width: 100%; height: 100%; object-fit: cover; }
+        .post_item img { width: 80px; height: 80px; object-fit: cover; flex-shrink: 0; }
     </style>
 
     @stack('styles')
